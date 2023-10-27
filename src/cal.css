@@ -1,0 +1,21 @@
+.btn1{
+    border-radius: 20%;
+    outline: none;
+    border-style: none;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.Adjust{
+    display: grid;
+    grid-template-columns: 33px 35px 35px 33px;
+    column-gap: 35px;
+    align-items: center;
+}
+.btn4{
+    border: none;
+    border-radius: 15px;
+    padding-top: 17%;
+    padding-bottom: 17%;
+    font-weight: bold;
+}
