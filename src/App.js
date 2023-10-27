@@ -1,5 +1,4 @@
 import "./cal.css";
-import { useState } from "react";
 function App(){
   const captureValue =(value)=>{
     var text = document.getElementById("text");
