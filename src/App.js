@@ -1,4 +1,5 @@
 import "./cal.css";
+import * as math from "mathjs";
 function App(){
   const captureValue =(value)=>{
     var text = document.getElementById("text");
@@ -17,7 +18,7 @@ function App(){
   const result =()=>{
    try{
     var value = document.getElementById("text").value;
-    var calculateResult = eval(value)
+    var calculateResult = math.evaluate(value)
     document.getElementById("text").value = calculateResult
    }catch(err){
     document.getElementById("text").value = "ERROR"
