@@ -1,21 +1,14 @@
-.btn1{
-    border-radius: 20%;
-    outline: none;
-    border-style: none;
-    align-items: center;
-    padding-top: 10%;
-    padding-bottom: 10%;
+*{
+    background-color: black;
+    color: white;
 }
-.Adjust{
+.btns{
     display: grid;
-    grid-template-columns: 33px 35px 35px 33px;
-    column-gap: 35px;
-    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
 }
-.btn4{
-    border: none;
-    border-radius: 15px;
-    padding-top: 17%;
-    padding-bottom: 17%;
-    font-weight: bold;
+button{
+    filter: drop-shadow(3px 3px 1px blue);
+    padding: 10px;
+    border-radius: 20px;
 }
